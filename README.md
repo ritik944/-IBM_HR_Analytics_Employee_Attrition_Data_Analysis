@@ -29,21 +29,26 @@ This project investigates the factors that affect employee attrition at IBM. It 
     ```bash
     pip install -r requirements.txt
 
-##Usage
--Open the Jupyter notebook (IBM.ipynb) to explore the analysis.
--Run the cells step-by-step to understand the data exploration and visualization process.
--Modify the notebook to analyze different attributes and their impact on attrition.
+## Usage
+- Open the Jupyter notebook (IBM.ipynb) to explore the analysis.
+- Run the cells step-by-step to understand the data exploration and visualization process.
+- Modify the notebook to analyze different attributes and their impact on attrition.
 
-##Dataset
+## Dataset
 The dataset used is IBM's HR employee attrition data (WA_Fn-UseC_-HR-Employee-Attrition.csv). It includes various features such as:
--Age
--Job Role
--Job Satisfaction
--Work-life balance
--Overtime status
--Years at company
+- Age
+- Job Role
+- Job Satisfaction
+- Work-life balance
+- Overtime status
+- Years at company
 
-##Results
--Insights on key factors leading to employee attrition.
--Data visualizations showing trends related to employee satisfaction, performance, and work-life balance.
--Potential predictive models for identifying employees at risk of attrition (if applicable).
+## Results
+- Insights on key factors leading to employee attrition.
+- Data visualizations showing trends related to employee satisfaction, performance, and work-life balance.
+- Potential predictive models for identifying employees at risk of attrition (if applicable).
+- RANDOM FOREST                  roc_auc_score: 0.543
+- XGBOOST                        roc_auc_score: 0.619
+- LOGISTIC REGRESSION            roc_auc_score: 0.546
+- SUPPORT VECTOR MACHINE         roc_auc_score: 0.500
+- ADABOOST                       roc_auc_score: 0.599
