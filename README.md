@@ -44,8 +44,14 @@ The dataset used is IBM's HR employee attrition data (WA_Fn-UseC_-HR-Employee-At
 - Years at company
 
 ## Results
-- Insights on key factors leading to employee attrition.
-- Data visualizations showing trends related to employee satisfaction, performance, and work-life balance.
+- The workers with low JobLevel, MonthlyIncome, YearAtCompany, and TotalWorkingYears are more likely to quit there jobs.
+- BusinessTravel : The workers who travel alot are more likely to quit then other employees.
+- Department : The worker in Research & Development are more likely to stay then the workers on other departement.
+- EducationField : The workers with Human Resources and Technical Degree are more likely to quit then employees from other fields of educations.
+- Gender : The Male are more likely to quit.
+- JobRole : The workers in Laboratory Technician, Sales Representative, and Human Resources are more likely to quit the workers in other positions.
+- MaritalStatus : The workers who have Single marital status are more likely to quit the Married, and Divorced.
+- OverTime : The workers who work more hours are likely to quit then others..
 - Potential predictive models for identifying employees at risk of attrition (if applicable).
 - RANDOM FOREST                  roc_auc_score: 0.543
 - XGBOOST                        roc_auc_score: 0.619
